@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    font-family: "Roboto";
+}
+
+/* Estilos para barra principal */
+header{
+    background-color:#222222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    font-size: 24px;
+    font-weight: 700;
+    gap: 5px;
+}
+.pizza{
+    color:#39B24A;
+}
+
+.y{
+    color:#F3F3F3;
+}
+
+.front{
+    color:#FC200C;
+}
+
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+}
+nav ul li{
+    display: flex;
+    justify-content: flex-end;
+    color:#F3F3F3;
+    margin: 10px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/*Estilos para main */
+main{
+    background-color: #E5E5E5;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card1{
+    background: url(../img/delivery.jpg) no-repeat;
+    border-radius: 5px;
+    width: 490px;
+    height: 350px;
+    margin: 50px 2px 50px 2px;
+
+    
+}
+
+.card1 h2{
+    color:#FC200C; 
+    font-size: 24px;
+    font-weight: 700;  
+}
+.card1 h2 span{
+    color:#F3F3F3;
+
+}
+.card2{
+    background-color:#FFFFFF;
+    width: 491px;
+    height: 350px;
+    border-radius: 5px;
+    margin: 50px 2px 50px 2px;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.contenido-card2{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.titulo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.titulo h2{
+    font-size: 24px;
+    font-weight: 700;
+    color:#FC200C;
+}
+
+.contenido-card2 h3{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.contenido-card2 li{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/*Estilos para el pie de página */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222222;
+}
+
+.menu-footer{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.menu-footer li{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    color: #F3F3F3;
+    ;
+}
+
+h2{
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
